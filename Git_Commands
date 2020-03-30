@@ -35,6 +35,8 @@ git init                #// This will initiize
 git config --global user.name "vengala"
 git config --global user.email "vengala@gmail.com"
 
+
+
 ####
 git status
 # On branch master
@@ -47,9 +49,20 @@ git status
 #       index.html
 nothing added to commit but untracked files present (use "git add" to track
 
-####
+#### Git Add/remove
 git add index1.html 
-git rm  --cached index1.html
+git reset HEAD index1.html              #// Remove only from Stagit directory 
+git rm  --cached index1.html            #// Remove from Git Stagit or Local commited files
+
+
+#### Git Commit
+git commit -m "first Commmmit"
+    [master (root-commit) d92f3c0] first Commmmit
+     1 file changed, 1 insertion(+)
+     create mode 100644 index1.html
+
+
+
 
 ###
 git status
