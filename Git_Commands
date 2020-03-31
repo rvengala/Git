@@ -195,13 +195,4 @@ git log --oneline b2            # Log of b2 should be changed, c should insert b
     git pull "https://github.com/devops-ravi/project.git" master
     git push "https://github.com/devops-ravi/project.git" master
 
-    
-
-
-
-
-
-
-
-
-  
+ #  git  push origin b1     ## // It create new branchh and will push change to repo 
