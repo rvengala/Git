@@ -106,9 +106,27 @@ git rm --cached index2.html   // remove file from only Local, it wont delete fro
 vim .gitignore                  // Add file named which you dont want to tracked
 
 
+### Git Revert/undo 
+git log --oneline
+git revert <commit ID>
+
+
+# Head   -- head is tthe Pointer in Git
+
+### Reset  -- Distructive Commands  *** This is very  power full command, this old commits 
+git reset --hard <commit3>       // This will delete commit2 & commit1  --> 
+commit1   <-- HEAD 
+commit2
+commit3   <-- HEAD After rebase COmmit 
+commit4
+
+### 
 
 
 
-# ## 
+
+
+
+
 
   
