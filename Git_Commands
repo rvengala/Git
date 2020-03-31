@@ -191,8 +191,17 @@ git log --oneline b2            # Log of b2 should be changed, c should insert b
     git remove origin
     git push origin master
 
+#  git  push origin b1     ## // It create new branchh and will push change to repo 
+ 
+ # git branch -d b1       # Its will delete the branch in Local
+ # git branch -D b1       # Its will delete the branch in Local forecefully
+ 
+ # git push origin --delete b1 
 
-    git pull "https://github.com/devops-ravi/project.git" master
-    git push "https://github.com/devops-ravi/project.git" master
+##
+git pull "https://github.com/devops-ravi/project.git" master
+git push "https://github.com/devops-ravi/project.git" master
 
- #  git  push origin b1     ## // It create new branchh and will push change to repo 
+
+ 
+ 
