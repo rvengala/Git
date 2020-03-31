@@ -126,9 +126,13 @@ commit4
 ================================
 git status
 git branch 
-git checkout -b b1 master  or git checkout -b b1
+git checkout -b b1 master  or git checkout b1     (-b create new branch)
 git log --online b1
 git log --oneline master
+git merge <Source> <Destination>    //If Distination is master no need to metion. 
+    git merge b1   or git merge b1 master  
+
+
 
 
 
