@@ -127,11 +127,30 @@ commit4
 git status
 git branch 
 git checkout -b b1 master  or git checkout b1     (-b create new branch)
-git log --online b1
+git log --onleine b1
 git log --oneline master
 git merge <Source> <Destination>    //If Distination is master no need to metion. 
-    git merge b1   or git merge b1 master  
+    On Mater : git merge b1   or git merge b1 master  
+    On b1 : git b1 merge   or git merge master   
 
+#### Stashing/Unstashing       
+        # Stashing      ## // Stashing move the code to Temporory Shelves from Working Directory
+        git stash 
+        git stash list
+        git show <Stash Number ex:stash@{0}>
+        
+        # Unstashing    ## // Un Stashing move the code from Temporory Shelves working Working Directory
+        git stash pop <stash num ex:stash@{0}>
+        
+        # Clear Stash
+        git stash clear 
+        
+        # Partial Stashing 
+        git stash -p
+        git stash pop <stash number> or git stash apply <stash number>
+        
+        # Delete perticulat Stash 
+        git stash drop "stash@{0}" 
 
 
 
