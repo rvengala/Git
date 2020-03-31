@@ -34,6 +34,7 @@ echo "<h>This is my first Git file</h>"  >> index1.html
 git init                #// This will initiize 
 git config --global user.name "vengala"
 git config --global user.email "vengala@gmail.com"
+git commit -a -m "Comment"      // This will commit from Working to LR 
 
 
 
@@ -78,6 +79,36 @@ git status
 ###
 ls                  // Linux command 
 git ls-files        // Git Ls commands
-  
-  
+git status 
+git log 
+git log --oneline 
+ 
+### diff coommands
+git diff file1.txt
+git diff --staged file1.txt
+
+### Remove Commands
+git rm file1.txt          // Remove from Working, Staged, Local
+git status
+
+git rm file1.txt
+    error: 'file1.txt' has staged content different from both the file and the HEAD
+    (use -f to force removal)
+
+git rm -f file1.txt
+    rm 'file1.txt'
+    $ ls
+    index1.html  index2.html  index.html
+    
+git rm --cached index2.html   // remove file from only Local, it wont delete from working
+
+#### Ignoore file Track
+vim .gitignore                  // Add file named which you dont want to tracked
+
+
+
+
+
+# ## 
+
   
