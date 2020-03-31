@@ -122,6 +122,17 @@ commit4
 
 ### 
 
+### BRANCHING COMMANDS/STRATEGY 
+================================
+git status
+git branch 
+git checkout -b b1 master  or git checkout -b b1
+git log --online b1
+git log --oneline master
+
+
+
+
 
 
 
